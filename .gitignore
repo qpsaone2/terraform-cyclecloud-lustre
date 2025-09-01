@@ -1,0 +1,29 @@
+# Local Terraform directories
+.terraform/
+
+# .tfstate files
+# IMPORTANT: These files store the state of your infrastructure and may contain secrets.
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+# These files are likely to contain sensitive data and should NOT be committed.
+# Use a terraform.tfvars.example file to specify required variables.
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files as they are typically used for local testing
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
